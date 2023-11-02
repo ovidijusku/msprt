@@ -6,13 +6,17 @@ mSPRT is a statistical hypothesis test that can be used to decide if a observed 
 
 Main functionalities:
 1. Calculating mixture variance
+
 $$
 \tau^2 = \sigma^2 \frac{\Phi(-b)}{\frac{1}{b}\phi(b)-\Phi(-b)}
 $$
+
 2. Calculating test statistic for normal distribution
+
 $$
 \tilde{\Lambda}_n = \sqrt{\frac{2\sigma^2}{V_n + n\tau^2}}\exp\left(\frac{n^2\tau^2(\bar{Y}_n - \bar{X}_n-\theta_0)^2}{4\sigma^2(2\sigma^2+n\tau^2)}\right).
 $$
+
 3. Calculating test statistic for Bernoulli distribution
 $$\tilde{\Lambda}_n = \sqrt{\frac{V_n}{V_n + n\tau^2}}\exp{\left(\frac{n^2\tau^2(\bar{Y}_n - \bar{X}_n-\theta_0)^2}{2V_n(V_n+n\tau^2)}\right)}$$
 
