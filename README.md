@@ -18,7 +18,10 @@ $$
 $$
 
 3. Calculating test statistic for Bernoulli distribution
-$$\tilde{\Lambda}_n = \sqrt{\frac{V_n}{V_n + n\tau^2}}\exp{\left(\frac{n^2\tau^2(\bar{Y}_n - \bar{X}_n-\theta_0)^2}{2V_n(V_n+n\tau^2)}\right)}$$
+
+$$
+\tilde{\Lambda}_n = \sqrt{\frac{V_n}{V_n + n\tau^2}}\exp{\left(\frac{n^2\tau^2(\bar{Y}_n - \bar{X}_n-\theta_0)^2}{2V_n(V_n+n\tau^2)}\right)}
+$$
 
 
 
