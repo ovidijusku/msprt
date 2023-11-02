@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "msprt"
+version = "0.1.0"
+description = ""
+authors = ["Ovidijus Kuzminas <https://github.com/ovidijusku>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+numpy = "^1.26.1"
+scipy = "^1.11.3"
+matplotlib = "^3.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
